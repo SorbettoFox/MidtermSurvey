@@ -8,23 +8,22 @@
 <h1>Midterm Survey</h1>
 <form action="#" method="post" class="form-horizontal">
     <div class="form-group">
-        <label for="name">Enter your name </label>
+        <label for="name">Enter your name</label>
         <input type="text" class="form-control" name="name" id="name">
     </div>
 
     <div class="form-group">
         <label>Check all that apply</label>
         <br>
-        <label><input type="checkbox" name="option1" value="Easy"> Midterm was easy peasy </label>
+        <label><input type="checkbox" name="checked" value="Easy"> <?= ($choices[0]) ?></label>
         <br>
-        <label><input type="checkbox" name="option2" value="Tough"> Midterm was a bit tough</label>
+        <label><input type="checkbox" name="checked" value="Tough"> <?= ($choices[1]) ?></label>
         <br>
-        <label><input type="checkbox" name="option3" value="Dark Souls"> Beating Dark Souls with a Guitar Hero controller
-            would be easier.</label>
+        <label><input type="checkbox" name="checked" value="Dark Souls"> <?= ($choices[2]) ?></label>
         <br>
-        <label><input type="checkbox" name="option4" value="Knuckles"> And Knuckles</label>
+        <label><input type="checkbox" name="checked" value="Knuckles"> And Knuckles</label>
         <br>
-        <label><input type="checkbox" name="option5" value="Enjoyed Midterm">I enjoyed this midterm.</label>
+        <label><input type="checkbox" name="checked" value="Enjoyed Midterm">I enjoyed this midterm.</label>
         <br>
     </div>
 
@@ -34,7 +33,6 @@
     </div>
 
 </form>
-
 
 </body>
 </html>
