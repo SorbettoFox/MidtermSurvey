@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Midterm Survey</h1>
-<p>Take my midterm survey</p>
+<a href="survey">Take my midterm survey</a>
 
 </body>
 </html>
